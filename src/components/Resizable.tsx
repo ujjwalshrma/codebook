@@ -6,7 +6,6 @@ interface ResizableProps {
   direction: 'horizontal' | 'veritcal'
 }
 
-console.log('hello')
 
 const Resizable: React.FC<ResizableProps> = ({ direction, children }) => {
   const [innerHeight, setInnerHeight] = useState(window.innerHeight)
